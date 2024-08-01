@@ -24,7 +24,9 @@ nav {
     border-bottom: 5px solid black;
     padding: 25px 100px 25px 95px;
     justify-content: space-between;
+    align-items: center;
 }
+
 
 .nav-link {
     font-size: 24px;
@@ -36,8 +38,6 @@ h1 {
     text-align: center;
     color: white;
     font-size: 36px;
-    margin-top: ;
-    margin-bottom: ;
 }
 
 p {
@@ -46,9 +46,10 @@ p {
 
 .info {
     flex-wrap: wrap;
-    margin: 0px;
+    margin: 0px auto 0px auto;
     display: flex;
     justify-content: center;
+    max-width: 1100px;
 }
 
 article {
@@ -68,6 +69,7 @@ article {
     padding: 10px 75px 10px 75px;
     background-color: orange;
         transition: 0.7s;
+        display: block;
 }
 
 footer {
@@ -97,6 +99,7 @@ header, nav, .info, footer {
     padding: 10px 75px 10px 75px;
     background-color: red;
     transition: 0.7s;
+    display: block;
 }
 
 .article-kot {
@@ -107,6 +110,7 @@ header, nav, .info, footer {
     padding: 10px 75px 10px 75px;
     background-color: lightgreen;
         transition: 0.7s;
+        display: block;
 }
 
 .article-tel {
@@ -117,6 +121,7 @@ header, nav, .info, footer {
     padding: 10px 75px 10px 75px;
     background-color: purple;
         transition: 0.7s;
+        display: block;
 }
 
 .article-but:hover{
